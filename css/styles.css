@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", "Arial", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* site navigation  */
+
+.main-menu {
+  margin: 0px;
+  padding: 52px 0px 103px;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main-menu li:not(:last-child) {
+  margin-right: 122px;
+}
+
+.main-nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #626262;
+  font-weight: 400;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  color: red;
+}
+
+/* section */
+.test {
+  font-size: 0px;
+}
+.main-info {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  /* text-align: left; */
+}
+
+.main-info p {
+  font-size: 14px;
+}
+
+/* .lifestyle,
+.photodiary:not(:nth-child(2n)) {
+  margin-right: 60px;
+} */
+
+.main-info:nth-child(2n) {
+  margin-right: 0;
+}
+
+.subtitle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  color: #b4ad9e;
+  line-height: 17px;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-bottom: 34px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.button {
+  margin: 0px;
+  padding: 0px;
+  width: 162px;
+  height: 60px;
+  color: #626262;
+  cursor: pointer;
+}
+button {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
