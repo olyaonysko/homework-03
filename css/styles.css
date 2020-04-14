@@ -90,6 +90,7 @@ img {
 
 .main-info p {
   font-size: 14px;
+  margin-bottom: 130px;
 }
 
 section:nth-last-of-type(-n + 2) {
@@ -109,4 +110,22 @@ section:nth-last-of-type(-n + 2) {
   border: 1px solid #626262;
   background-color: transparent;
   cursor: pointer;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
