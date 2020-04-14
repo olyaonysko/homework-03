@@ -21,6 +21,10 @@ img {
   height: auto;
 }
 
+section {
+  margin-bottom: 130px;
+}
+
 .wrapper {
   width: 900px;
   margin: 0 auto;
@@ -90,7 +94,6 @@ img {
 
 .main-info p {
   font-size: 14px;
-  margin-bottom: 130px;
 }
 
 section:nth-last-of-type(-n + 2) {
